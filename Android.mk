@@ -15,9 +15,10 @@
 #
 
 
-ifneq (,$(filter $(TARGET_BOARD_PLATFORM)))
+ifneq ($(filter sc8830 scx15 ,$(TARGET_BOARD_PLATFORM)),)
 
-include $(call all-makefiles-under)
+LOCAL_PATH := $(call my-dir)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
 
