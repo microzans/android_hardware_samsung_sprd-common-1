@@ -34,7 +34,7 @@ LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_SRC_FILES := gsp_hal.cpp
 
 #/home/apuser/work/shark_android2/device/sprd/common/libs/mali/src/ump/include/ump/ump.h
-MALI_DDK_PATH := device/sprd/common/libs
+MALI_DDK_PATH := hardware/samsung/sprd-common
 LOCAL_C_INCLUDES := $(MALI_DDK_PATH)/mali/src/ump/include
 LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/../../gralloc \
