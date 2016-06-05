@@ -12,9 +12,9 @@ LOCAL_C_INCLUDES := \
 	$(TOP)/frameworks/native/include/ui \
 	$(TOP)/frameworks/native/include/utils \
 	$(TOP)/frameworks/native/include/media/hardware \
-	$(TOP)/vendor/sprd/open-source/libs/gralloc \
-	$(TOP)/vendor/sprd/open-source/libs/mali/src/ump/include \
-	$(TOP)/vendor/sprd/open-source/libs/libstagefrighthw/include \
+	$(TOP)/hardware/samsunng/sprd-common/gralloc \
+	$(TOP)/hardware/samsunng/sprd-common/mali/src/ump/include \
+	$(TOP)/hardware/samsunng/sprd-common/libstagefrighthw/include \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL/usr/include/video 
 	
 
