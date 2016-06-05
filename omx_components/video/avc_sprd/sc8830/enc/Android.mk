@@ -11,7 +11,7 @@ LOCAL_C_INCLUDES := \
 	frameworks/native/include/media/hardware \
 	frameworks/native/include \
 	$(LOCAL_PATH)/../../../../../gralloc \
-	$(TOP)/vendor/sprd/open-source/libs/libstagefrighthw/include \
+	$(TOP)/hardware/samsung/sprd-common/libstagefrighthw/include \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL/usr/include/video
 
 LOCAL_CFLAGS := -DOSCL_EXPORT_REF= -DOSCL_IMPORT_REF=
