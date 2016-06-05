@@ -11,8 +11,8 @@ LOCAL_CFLAGS := $(PV_CFLAGS_MINUS_VISIBILITY)
 LOCAL_C_INCLUDES:= \
     $(TOP)/frameworks/native/include/media/openmax \
 	$(TOP)/frameworks/native/include/media/hardware \
-	$(TOP)/device/samsung/sprd-common/libstagefrighthw/include	\
-	$(TOP)/device/samsung/sprd-common/gralloc
+	$(TOP)/hardware/samsung/sprd-common/libstagefrighthw/include	\
+	$(TOP)/hardware/samsung/sprd-common/gralloc
 
 LOCAL_SHARED_LIBRARIES :=       \
         libbinder               \
