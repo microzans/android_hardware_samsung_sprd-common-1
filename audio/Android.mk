@@ -62,12 +62,12 @@ LOCAL_C_INCLUDES += \
 	external/expat/lib \
 	system/media/audio_utils/include \
 	system/media/audio_effects/include \
-	android/device/sprd-common/engmode \
-	android/device/sprd-common/audio/vb_pga \
-	android/device/sprd-common/audio/record_process \
-	android/device/sprd-common/audio/nv_exchange \
-	android/device/sprd-common/libatchannel \
-	android/device/sprd-common/audio/DumpData
+	hardware/sprd-common/engmode \
+	hardware/sprd-common/audio/vb_pga \
+	hardware/sprd-common/audio/record_process \
+	hardware/sprd-common/audio/nv_exchange \
+	hardware/sprd-common/libatchannel \
+	hardware/sprd-common/audio/DumpData
 	
 	BOARD_EQ_DIR := v1
 
@@ -79,7 +79,7 @@ ifeq ($(strip $(TARGET_BOARD_PLATFORM)),scx15)
 	BOARD_EQ_DIR := v2
 endif
 
-LOCAL_C_INCLUDES += vendor/sprd/open-source/libs/audio/vb_effect/$(BOARD_EQ_DIR)
+LOCAL_C_INCLUDES += hardware/samsung/sprd-common/audio/vb_effect/$(BOARD_EQ_DIR)
 
 LOCAL_SRC_FILES := audio_hw.c tinyalsa_util.c audio_pga.c \
 			record_process/aud_proc_config.c.arm \
