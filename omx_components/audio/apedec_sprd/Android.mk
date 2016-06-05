@@ -11,8 +11,8 @@ LOCAL_C_INCLUDES := \
         frameworks/av/media/libstagefright/include \
         frameworks/native/include/media/openmax \
         frameworks/av/include/media/stagefright \
-        $(TOP)/device/samsung/sprd-common/libstagefrighthw/include \
-        $(TOP)/device/samsung/sprd-common/omx_components/audio/apedec_sprd/decode_inc
+        $(TOP)/hardware/samsung/sprd-common/libstagefrighthw/include \
+        $(TOP)/hardware/samsung/sprd-common/omx_components/audio/apedec_sprd/decode_inc
 
 LOCAL_CFLAGS := -DOSCL_EXPORT_REF= -DOSCL_IMPORT_REF= -D_AACARM_  -D_ARMNINEPLATFORM_  -DAAC_DEC_LITTLE_ENDIAN
 
